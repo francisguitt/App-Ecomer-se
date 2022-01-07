@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" 
+   content="width=device-width, initial-scale=1, 
+  user-scalable=no ">
+  <title>LIZA MODAS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+        <!--Campo de busca -->
+        <section class="input-search">
+          <input type="text" id="inputValue" placeholder="Buscar por Items" value="">
+          <button id="btn_search">
+            <img id="Btn_search" src="./acests/icon.png">
+          </button>
+        </section>
+    <div class="header-1">
+      <a href="#" class="hamburger">  &#9776;</a>
+      <!--&gt-->
+      <div class="content">
+          <h2>LIZA MODA</h2>
+     </div>
+    </div>
+  </header>
+  <!--sub header -->
+  <section class="section-square">
+    <div class="square">
+      <a href="cart_buy.index.html">
+     <div class="slider1">
+       <img src="./acests/shopping_Cart.png" width="46px">
+        <!--items no carrinho-->
+        <input type="number"
+  id="cartbuy" class="cartbuy" value="0">
+    </div></a>
+    <div class="slider2" id="cartdelivery">
+      <!--cartdelivery-->
+      <img src="./acests/delivery-truck.png" width="50px">
+    </div>
+    <div class="slider3"
+    id="Loca_tion">
+      <img src="./acests/location.png" width="30px">
+    </div>
+    <div class="slider4" id="signIn">
+      <!--login-->
+  <a href="login.html"><img src="./acests/login.png" width="50px"></a>
+    </div>
+    </div>
+  </section>
+     <!--selesionar região-->
+  <section class="options">
+    <select name="options">
+      <option value="">Selecione Sua Região</option>
+      <option value="sp">SP</option>
+      <option value="rj">RJ</option>
+      <option value="pi">PI</option>
+      <option value="ma">MA</option>
+    </select>
+  </section>
+
+ <!--menu lateral aside-->
+  <section class="section-aside">
+    <div class="aside">
+      <a href="#" class="close"selected>Fechar</a>
+      <div class="product">Produtos</div>
+      <div class="extortion">Extorno</div>
+      <div class="payments">Pagamentos</div>
+      <div class="budgets">Orçamentos</div>
+      <div class="about">Ajuda</div>
+  </section>
+  <!--barra de navegação-->
+  <nav>
+    <ul class="navigation">
+      <div class="nav-list">
+    <li class="close-navigation">
+     <div class="circle"
+        id="circle">X</div>
+    </li>
+      <li><a href="#">Duvidas</a></li>
+      <li><a href="#">Central</a></li>
+      <li><a href="#">Suporte</a></li>
+       <li><a href="#">Sobre</a></li>
+       <li><a href="#">Contatos</a></li>
+       <li><a href="">cashback</a></li>  </div>
+    </ddddul>
+  </nav>
+  <!-- spiner - load-->
+  <section class="spiner">
+    <div class="spiner-load">
+      <span></span>
+    </div>
+  </section>
+  <header class="header-2">
+  <h3 style="color:#FFF;margin-top: 8px;">Buscar Por Cep</h3>
+    <div class="search-cep">
+ <input type="text" id="Data-cep" class="Data-cep"
+ value=""placeholder="Digite o seuCep"
+ maxlength="8">
+    </div>
+ <button 
+type="submit"class="scanCep"
+id="Submit"
+   >Buscar</button>  
+   <h2 class="infoCep" style="color: Red;"></h2>
+   
+ <div class="viewCep">
+ <div class="a"></div>
+ <div class="b"></div>
+ <div class="c"></div>
+ <div class="d"></div>
+ <div class="e"></div>
+ <div class="f"></div>
+ </div>
+  </header>
+
+
+<div class="box">
+  <div class="info_area">
+    <h2 style="color:red;">
+      Liza Moda
+      </h2>
+   <strong></strong>
+    <div class="btn-area-location">
+     <button id="btn_location"
+     class="btn_location">
+       Cancelar
+     </button>
+     <button id="btn_location2"
+     class="btn_location2">
+       Confirmar
+     </button>
+  </div>
+  </div>
+</div>
+<div class="Msg_main">
+  <h1 class="msg_main"></h1>
+</div>
+  <!--conteudo section 
+  article main-->
+  <section class="section-article">
+     <article>
+       <div class="article-main">
+         <div class="store_list">
+      <!-- <img src="./acests/"/>-->
+         </div>
+       </div>
+     </article>
+   </section>
+   
+   
+   <!-- Ecomerçe -->
+   <!--===========================-->
+   <!--<div class="header-3">
+      <main>
+        <div class="content_offers">
+          <div class="article_offers">
+           
+            <img src="./acests/Grey_Tshirt.jpg" width="150px;">
+            
+                <img src="./acests/Grey_Tshirt.jpg" width="150px;">
+
+                 
+                    <img src="./acests/Grey_Tshirt.jpg" width="150px;">
+             
+            <img src="./acests/Blue_Tshirt.jpg" width="150px;">
+            
+              <img src="./acests/Blue_Tshirt.jpg" width="150px;">
+             
+                        <img src="./acests/model_2.jpeg" width="150px;">
+
+                            <img src="./acests/model_1.jpeg" width="150px;">        
+     
+            
+          </div>
+        </div>
+      </main>
+    </div>
+   -->
+   <div class="spiner-2">
+     <img src="./acests/ajax-loader.gif"/>
+   </div>
+  <script type="module"
+      src="main.js"></script>
+</body>
+</html> 
